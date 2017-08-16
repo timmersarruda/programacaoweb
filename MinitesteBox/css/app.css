@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wraper{
+    margin:auto;
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main{
+    border: 1px solid red;
+    flex-grow: 1;
+    height: 100%;
+    flex-direction: row;
+}
+
+header{
+    border: 1px solid red;
+    height: 100%;
+}
+    
+footer{
+    border: 1px solid red;
+    height: 100%;
+}
+
+/*.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    display: flex;
+    flex-direction: row;
+} */
+
